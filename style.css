@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #e7e7de;
+}
+
+
+a{
+  text-decoration: none;
+}
+img{ 
+  vertical-align: baseline;
+}
+ul{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+/* Utility classes */
+.container{
+  max-width: 1100px !important;
+  margin: auto !important;
+}
+.container h1 {
+  padding: 0 !important;
+  display: inline !important;
+  margin: 5px;
+}
+.clr{
+  float: none;
+}
+
+.subtitle {
+  color: #0f3057;
+  font-size: 3em;
+}
+
+.py-1 { padding: 1.5rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
+.py-5 { padding: 5rem 0; }
+
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+
+
+/* Navigation */
+#navbar{
+  margin: 0;
+  position: sticky;
+  top: 0;
+  overflow: auto;
+  background-color:#00587a;
+  z-index: 1;
+}
+
+#navbar .container{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+
+#navbar .container ul {
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+#navbar .container .logo{
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+#navbar ul li a{
+  color: white ;
+  font-size: 1.2rem;
+  margin: 0 0.1rem;
+}
+
+#navbar .container li a{
+  display: block;
+  color: #fff;
+  padding: 10px;
+}
+#navbar .container  li a:hover,
+#navbar a.container{
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  background-color: #008891;
+}
+
+#navbar .container img{
+  align-self: center;
+  width: 45px;
+}
+
+
+
+/*shocase*/
+#showcase{
+  background: url('https://rcfsd.github.io/images/research/fig1.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+#showcase .title {
+  padding-top: 15rem;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+}
+
+#showcase .showcase-content .showcase-container p{
+  font-size: 1.8rem;
+}
+
+#showcase .showcase-content {
+  /* won´t do anything because the height of the showcase-contect is as big as the contant and there it is already centered */
+  height: 100vh; 
+  /* 100% of the container which is the showcase */
+  padding: 0 2rem;
+  /* Overlay */
+  
+  top: 0px;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+}
+
+#showcase .showcase-content::before{
+  content: '';
+  background: ;
+}
+
+
+/* About Section */
+#about .container{
+  display: flex;
+}
+
+#about .container .about-heading{
+  align-self: center;
+  flex: 1;
+}
+
+#about .container .about-contant{
+  border-left: #0f3057 1px solid;
+  flex: 3;
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  padding: 0.75rem;
+}
+#about .container{
+  padding: 1rem;
+}
+
+
+
+
+
+/* Education */
+#education .container{
+  display: flex;
+}
+#education .container .education-heading{
+  align-self: center;
+  flex: 1;
+}
+#education .container .education-contant{
+  border-left: #0f3057 1px solid;
+  flex: 3;
+  font-size: 1.8rem;
+  margin-left: 2rem;
+  padding: 0.75rem;
+}
+#education .container .education-contant p{
+  font-size: 1.5rem;
+}
+
+#education .container .education-contant ul {
+  list-style-type: none;
+}
+#education .container{
+  padding: 1rem;
+}
+
+/*Contact Form*/
+
+#contact-form .container{
+  padding: 1rem;
+}
+
+#contact-form label{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#contact-form input{
+  width: 30%;
+  font-size: 15px;
+  padding: 10px;
+  border: 1 px #ddd solid;
+}
+
+#contact-form textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1 px #ddd solid;
+}
+
+#contact-form textarea{
+  font-size: 15px;
+  height: 200px;
+}
+
+#contact-form input:focus, 
+#contact-form textarea:focus{
+  outline: none;
+  border-color: #00587a;
+}
+
+
+/* Footer */
+#footer{
+  background: #00587a;
+  ba
+}
+
+/*https://colorhunt.co/palette/225739*/
