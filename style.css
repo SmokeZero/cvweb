@@ -232,7 +232,18 @@ ul{
 /* Footer */
 #footer{
   background: #00587a;
-  ba
+  text-align: center;
 }
+
+#footer p{
+  margin: 0;
+  padding: 1rem;
+}
+
+#footer .social-icon{
+  margin: 0.5rem;
+  margin-top: 0.75rem;
+}
+
 
 /*https://colorhunt.co/palette/225739*/
